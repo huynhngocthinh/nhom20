@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.9.1.js"></script>
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/library.js"></script>
+    <title>@ViewBag.Title</title>
+    <script>
+        $(document).ready(function (e) {
+            equalHeight($('.os'));
+        });
+    </script>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="header">Baner</div>
+        <div>Menu-Top</div>
+        mareqque-config
+        <div class="os content">
+            <div class="os center_contents">
+                @RenderBody()
+            </div>
+            <div class="os right_contents">
+                Showmenubar", "Category
+                RightBar", "Support
+                Homthu", "Advertise
+                Advright", "Advertise
+            </div>
+        </div>
+    <div class="footer">footer", "Config"</div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+F:\webservice\LapTopService\WcfLapTopService\bin\WcfLapTopService.dll
+F:\webservice\LapTopService\WcfLapTopService\bin\WcfLapTopService.pdb
+F:\webservice\LapTopService\WcfLapTopService\bin\EntityFramework.dll
+F:\webservice\LapTopService\WcfLapTopService\bin\EntityFramework.xml
+F:\webservice\LapTopService\WcfLapTopService\obj\Debug\WcfLapTopService.dll
+F:\webservice\LapTopService\WcfLapTopService\obj\Debug\WcfLapTopService.pdb

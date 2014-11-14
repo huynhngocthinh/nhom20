@@ -1,0 +1,24 @@
+.order { width: 558px; margin: 0 auto; padding: 0; margin-top: 5px; margin-bottom: 5px; font-size: 12px; color:Black;  }
+.order-table { width: 100%; border: 1px solid #EDEDED; }
+.order-table-trheader { font-weight: bold; text-align: center; background: #ff49d2; color:#FFF; height: 25px;}
+.order-table-tdright { border-right: 1px solid #DDD; }
+.order-table-trOdd	{ line-height: 24px; background:#FFF; text-align: center; width: 82px; }
+.order-tinhtien 	{ width: 558px; margin: 0 auto; padding: 0; margin-top: 5px; margin-bottom: 5px; font-size: 12px; color: Black; }
+.order-control 	{ width: 558px; margin: 0 auto; padding: 0; margin-top: 5px; margin-bottom: 5px; font-size: 12px;}
+.RefreshQuantity {
+    background: url(../Content/imagesAdmin/refresh.png) no-repeat;
+    /*width: 30px;*/
+    height: 20px;
+    margin-left: 14px;
+    display:block;
+    text-indent: -9999px;
+    float:left;
+}
+.RemoveLink {
+    background: url(../Content/imagesAdmin/delete.png) no-repeat;
+    width: 30px;
+    height: 20px;
+    display:block;
+    text-indent: -9999px;
+    float:left;
+}

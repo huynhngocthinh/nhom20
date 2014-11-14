@@ -1,0 +1,9 @@
+﻿@model IEnumerable<LapTopService.ServiceReferencePhanLoai.PhanLoai>
+<!-- Menu Phân Loại Sản Phẩm -->
+     <ul class="left_menu">                 
+     @foreach (var item in Model) 
+         { 
+           <li class="odd"><a href="@Url.Action("LoaiSanPham", "Index", new { id = @item.MaLoai})" rel="@item.TenLoai">@item.TenLoai</a></li>
+         }
+     </ul>
+           

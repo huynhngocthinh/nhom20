@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicePhanLoai" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:18037/ServicePhanLoai.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:18037/ServicePhanLoai.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:18037/ServicePhanLoai.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfLapTopService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicePhanLoai_SelectPhanLoai_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPhanLoai" />
+  </wsdl:message>
+  <wsdl:message name="IServicePhanLoai_SelectPhanLoai_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPhanLoaiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicePhanLoai_InsertPhanLoai_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertPhanLoai" />
+  </wsdl:message>
+  <wsdl:message name="IServicePhanLoai_InsertPhanLoai_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertPhanLoaiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicePhanLoai_UpdatePhanLoai_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePhanLoai" />
+  </wsdl:message>
+  <wsdl:message name="IServicePhanLoai_UpdatePhanLoai_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePhanLoaiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicePhanLoai_DeletePhanLoai_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePhanLoai" />
+  </wsdl:message>
+  <wsdl:message name="IServicePhanLoai_DeletePhanLoai_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePhanLoaiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicePhanLoai_SelectPhanLoaiById_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPhanLoaiById" />
+  </wsdl:message>
+  <wsdl:message name="IServicePhanLoai_SelectPhanLoaiById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectPhanLoaiByIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicePhanLoai">
+    <wsdl:operation name="SelectPhanLoai">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicePhanLoai/SelectPhanLoai" message="tns:IServicePhanLoai_SelectPhanLoai_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicePhanLoai/SelectPhanLoaiResponse" message="tns:IServicePhanLoai_SelectPhanLoai_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertPhanLoai">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicePhanLoai/InsertPhanLoai" message="tns:IServicePhanLoai_InsertPhanLoai_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicePhanLoai/InsertPhanLoaiResponse" message="tns:IServicePhanLoai_InsertPhanLoai_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhanLoai">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicePhanLoai/UpdatePhanLoai" message="tns:IServicePhanLoai_UpdatePhanLoai_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicePhanLoai/UpdatePhanLoaiResponse" message="tns:IServicePhanLoai_UpdatePhanLoai_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhanLoai">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicePhanLoai/DeletePhanLoai" message="tns:IServicePhanLoai_DeletePhanLoai_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicePhanLoai/DeletePhanLoaiResponse" message="tns:IServicePhanLoai_DeletePhanLoai_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectPhanLoaiById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicePhanLoai/SelectPhanLoaiById" message="tns:IServicePhanLoai_SelectPhanLoaiById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicePhanLoai/SelectPhanLoaiByIdResponse" message="tns:IServicePhanLoai_SelectPhanLoaiById_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicePhanLoai" type="tns:IServicePhanLoai">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SelectPhanLoai">
+      <soap:operation soapAction="http://tempuri.org/IServicePhanLoai/SelectPhanLoai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertPhanLoai">
+      <soap:operation soapAction="http://tempuri.org/IServicePhanLoai/InsertPhanLoai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhanLoai">
+      <soap:operation soapAction="http://tempuri.org/IServicePhanLoai/UpdatePhanLoai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhanLoai">
+      <soap:operation soapAction="http://tempuri.org/IServicePhanLoai/DeletePhanLoai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectPhanLoaiById">
+      <soap:operation soapAction="http://tempuri.org/IServicePhanLoai/SelectPhanLoaiById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicePhanLoai">
+    <wsdl:port name="BasicHttpBinding_IServicePhanLoai" binding="tns:BasicHttpBinding_IServicePhanLoai">
+      <soap:address location="http://localhost:18037/ServicePhanLoai.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

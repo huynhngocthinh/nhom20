@@ -1,0 +1,13 @@
+F:\webservice\LapTopService\WinFormApp\bin\Debug\WinFormApp.exe.config
+F:\webservice\LapTopService\WinFormApp\bin\Debug\WinFormApp.exe
+F:\webservice\LapTopService\WinFormApp\bin\Debug\WinFormApp.pdb
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.FormPhanLoaiSP.resources
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.Properties.Resources.resources
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.Cache
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.exe
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.pdb
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.FormQuanLy.resources
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.FormNhanVien.resources
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.FormQLSP.resources
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.FormKhachHang.resources
+F:\webservice\LapTopService\WinFormApp\obj\Debug\WinFormApp.csprojResolveAssemblyReference.cache

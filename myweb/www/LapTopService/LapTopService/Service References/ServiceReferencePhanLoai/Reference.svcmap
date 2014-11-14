@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2561938d-6ea6-4f51-8d27-ac935d8bfde2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:18037/ServicePhanLoai.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicePhanLoai.wsdl" MetadataType="Wsdl" ID="a77f9c90-b875-4ed6-ac38-12260cf33787" SourceId="1" SourceUrl="http://localhost:18037/ServicePhanLoai.svc?wsdl" />
+    <MetadataFile FileName="ServicePhanLoai.disco" MetadataType="Disco" ID="c18f0a5a-e866-45bf-be82-31489dba2457" SourceId="1" SourceUrl="http://localhost:18037/ServicePhanLoai.svc?disco" />
+    <MetadataFile FileName="ServicePhanLoai.xsd" MetadataType="Schema" ID="f77d93d8-3180-4d76-8a45-17d0c2d77e62" SourceId="1" SourceUrl="http://localhost:18037/ServicePhanLoai.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicePhanLoai1.xsd" MetadataType="Schema" ID="c0a12554-c4e9-41c4-b56e-294f3336b9df" SourceId="1" SourceUrl="http://localhost:18037/ServicePhanLoai.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicePhanLoai2.xsd" MetadataType="Schema" ID="e147a0ff-46d2-410b-848c-aa2b7f99deb5" SourceId="1" SourceUrl="http://localhost:18037/ServicePhanLoai.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

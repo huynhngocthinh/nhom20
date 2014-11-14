@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LapTopService", "LapTopService\LapTopService.csproj", "{45DFCEE6-93B0-4B5D-80CF-2FC61931CC13}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2BBF652-0D7C-4DAB-BF8A-6BCA1BCA5FF6} = {A2BBF652-0D7C-4DAB-BF8A-6BCA1BCA5FF6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLapTopService", "WcfLapTopService\WcfLapTopService.csproj", "{A2BBF652-0D7C-4DAB-BF8A-6BCA1BCA5FF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApp", "WinFormApp\WinFormApp.csproj", "{46948D43-39CA-4B25-B60B-3E8D0ED12557}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2BBF652-0D7C-4DAB-BF8A-6BCA1BCA5FF6} = {A2BBF652-0D7C-4DAB-BF8A-6BCA1BCA5FF6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45DFCEE6-93B0-4B5D-80CF-2FC61931CC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DFCEE6-93B0-4B5D-80CF-2FC61931CC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DFCEE6-93B0-4B5D-80CF-2FC61931CC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DFCEE6-93B0-4B5D-80CF-2FC61931CC13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BBF652-0D7C-4DAB-BF8A-6BCA1BCA5FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BBF652-0D7C-4DAB-BF8A-6BCA1BCA5FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BBF652-0D7C-4DAB-BF8A-6BCA1BCA5FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BBF652-0D7C-4DAB-BF8A-6BCA1BCA5FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46948D43-39CA-4B25-B60B-3E8D0ED12557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46948D43-39CA-4B25-B60B-3E8D0ED12557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46948D43-39CA-4B25-B60B-3E8D0ED12557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46948D43-39CA-4B25-B60B-3E8D0ED12557}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

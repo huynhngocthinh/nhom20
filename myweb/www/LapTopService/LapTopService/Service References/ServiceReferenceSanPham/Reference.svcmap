@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4c48ebe0-25f3-4c4a-9b4f-2dd7562ddee4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:18037/ServiceSanPham.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceSanPham.xsd" MetadataType="Schema" ID="4160c9d0-838f-4ea0-b983-4ae221b0bf24" SourceId="1" SourceUrl="http://localhost:18037/ServiceSanPham.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceSanPham1.xsd" MetadataType="Schema" ID="00475b45-791c-4937-9b69-0daf698ae560" SourceId="1" SourceUrl="http://localhost:18037/ServiceSanPham.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceSanPham2.xsd" MetadataType="Schema" ID="a747a110-5621-423e-a7a8-6fb3d9a6e2ec" SourceId="1" SourceUrl="http://localhost:18037/ServiceSanPham.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceSanPham.wsdl" MetadataType="Wsdl" ID="f2377fc4-4971-4c48-81ae-0ce00d55f4c2" SourceId="1" SourceUrl="http://localhost:18037/ServiceSanPham.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
